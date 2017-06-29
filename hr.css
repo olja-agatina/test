@@ -112,3 +112,14 @@ margin-bottom: 30px;
     margin-top: 0px;
     margin-bottom: 5px;
 }
+
+.body-header:after {
+  content: " ";
+  clear: both;
+  display: table;
+}
+.body-block-div:after {
+  content: " ";
+  clear: both;
+  display: table;
+}
