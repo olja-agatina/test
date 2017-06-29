@@ -10,16 +10,13 @@ button {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 230px;
+    width: 329px;
 }
-
-
 .head-img {
     float: left;
-     height: 50px;
-     width: 120px;
+    height: 50px;
+    width: 120px;
 }
-
 .head-login {
     float: right;
     margin-top:  0px;
@@ -27,36 +24,27 @@ button {
      
 }
 .head-exit {
-        float: right;
-        margin-top: 7px;
-            margin-right: 15px;
-
- width: 26px;
- height: 26px;
+    float: right;
+    margin-top: 7px;
+    margin-right: 15px;
+    width: 26px;
+    height: 26px;
 }
 .body-block{
-        text-align: center;
-          width: 234px;
-  margin: 0 auto;
-
+    text-align: center;
+    width: 329px;
+    margin: 0 auto;
 }
-
-.body-blok-header{
-       float: left;
-}
-
 .p-checkbox{
-       float: left;
+    float: left;
 }
-
 hr{
     border: none;
     background-color: lightgrey;
     height: 1px;
 }
-
 .exit{
-          transform: rotate(-45deg);
+    transform: rotate(-45deg);
     background: grey;
     height: 26px;
     width: 2px;
@@ -72,26 +60,13 @@ hr{
     position: absolute;
     left: -12px;
     top:12px;
-
 }
-
-
-.container {
-    padding-top: 50px;
-    padding-right: 30px;
-   
-    padding-left: 580px;
-    left: 130px;
-}
-
 #body-input{
-    width: 230px;
+    width: 329px;
     height: 25px;
 }
-
 input[type=text] {
     color:grey;
-
 }
 .bottom-link {
     text-align: center;
@@ -100,26 +75,18 @@ input[type=text] {
     margin-top: 25px;
 }
 .body-block-link{
-margin-bottom: 30px;
+    margin-bottom: 30px;
 }
-
 .p-email{
     margin-top: 5px;
     margin-bottom: 0px;
 }
-
 .p-password{
     margin-top: 0px;
     margin-bottom: 5px;
 }
-
 .body-header:after {
-  content: " ";
-  clear: both;
-  display: table;
-}
-.body-block-div:after {
-  content: " ";
-  clear: both;
-  display: table;
+    content: " ";
+    clear: both;
+    display: table;
 }
