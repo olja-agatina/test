@@ -13,11 +13,6 @@ button {
     width: 230px;
 }
 
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
 
 .head-img {
     float: left;
@@ -39,9 +34,19 @@ table {
  width: 26px;
  height: 26px;
 }
-th.body-block{
+.body-block{
         text-align: center;
+          width: 234px;
+  margin: 0 auto;
 
+}
+
+.body-blok-header{
+       float: left;
+}
+
+.p-checkbox{
+       float: left;
 }
 
 hr{
@@ -70,11 +75,6 @@ hr{
 
 }
 
-td, th {
-   width: 500px;
-    text-align: left;
-    padding: 8px;
-}
 
 .container {
     padding-top: 50px;
@@ -93,12 +93,15 @@ input[type=text] {
     color:grey;
 
 }
-.psw {
+.bottom-link {
     text-align: center;
     font-size: 17px;
     display: block;
+    margin-top: 25px;
 }
-
+.body-block-link{
+margin-bottom: 30px;
+}
 
 .p-email{
     margin-top: 5px;
