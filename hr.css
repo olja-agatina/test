@@ -62,11 +62,12 @@ hr{
     top:12px;
 }
 #body-input{
-    width: 329px;
+    width: 299px;
     height: 25px;
 }
 input[type=text] {
     color:grey;
+    padding-left: 30px;   
 }
 .bottom-link {
     text-align: center;
@@ -80,6 +81,24 @@ input[type=text] {
 .p-email{
     margin-top: 5px;
     margin-bottom: 0px;
+}
+.p-email::before{
+  content: "\f007";
+  position: absolute;
+  font-family: "FontAwesome";
+  padding-left: 8px;
+  padding-top: 53px;
+  font-size: 25px;
+  color: grey;
+}
+.p-password::before{
+  content: "\f084";
+  position: absolute;
+  font-family: "FontAwesome";
+  padding-left: 6px;
+  padding-top: 4px;
+  font-size: 22px;
+  color: grey;
 }
 .p-password{
     margin-top: 0px;
