@@ -34,6 +34,17 @@ button {
   width: 26px;
   height: 26px;
 }
+.body-header-block{
+  text-align: center;
+  width: 366px;
+  margin: 0 auto;
+}
+.body-header-block-gradient{
+  text-align: center;
+  width: 366px;
+  margin: 0 auto;
+  background: linear-gradient(lightblue, white);
+}
 .body-block{
   text-align: center;
   width: 329px;
@@ -41,6 +52,7 @@ button {
 }
 .p-checkbox{
   float: left;
+  color: black;
   margin-top: 15px;
   margin-right: 15px;
   font-family: "Trebuchet MS";
@@ -71,7 +83,6 @@ hr{
 #body-input{
   width: 299px;
   height: 30px;
-  font-style: italic;
 }
 input[type=text] {
   color:grey;
@@ -87,6 +98,7 @@ input[type=text] {
 .body-block-link{
   margin-bottom: 30px;
   font-family: "Trebuchet MS";
+  text-decoration: none;
 }
 .p-email{
   margin-top: 5px;
@@ -129,5 +141,6 @@ input[type=text] {
   display: table;
 }
 .color-link{
-    color:#34b0d8;
+  color:#34b0d8;
+  text-decoration: none;
 }
