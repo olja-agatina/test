@@ -62,6 +62,7 @@ hr{
   border: none;
   background-color: lightgrey;
   height: 1px;
+  margin-bottom: -5px;
 }
 .exit{
   transform: rotate(-45deg);
@@ -85,7 +86,7 @@ hr{
   height: 30px;
 }
 input[type=text] {
-  color:grey;
+  color:black;
   padding-left: 30px;   
 }
 .bottom-link {
@@ -112,6 +113,9 @@ input[type=text] {
   padding-top: 60px;
   font-size: 25px;
   color: grey;
+}
+.p-email-page3::before{
+  padding-top: 54px;
 }
 .p-email::after{
   content: "\f06e";
@@ -143,4 +147,31 @@ input[type=text] {
 .color-link{
   color:#34b0d8;
   text-decoration: none;
+}
+hr.margin{
+  border: none;
+  background-color: lightgrey;
+  height: 1px;
+  margin-bottom: 0px;
+}
+.body-head-error-capslock{
+   background: #ffefe5;
+    height: 30px;
+    text-align: left;
+    line-height: 30px;
+    border: 2px solid gold;
+    border-radius: 6px;
+    }
+.body-head-error-capslock::before {
+  content: "\f071";
+  position: relative;
+  color: gold;
+  font-family: "FontAwesome";
+  padding-left: 10px;
+  padding-top: 6px;
+  font-size: 22px;  
+  margin-right: 10px;
+}
+.body-header-block-padding{
+    padding-top: 24px;
 }
