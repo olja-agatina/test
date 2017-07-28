@@ -89,6 +89,10 @@ input[type=text] {
   color:black;
   padding-left: 30px;   
 }
+input[type=password] {
+  color:black;
+  padding-left: 30px;   
+}
 .bottom-link {
   text-align: center;
   font-size: 17px;
@@ -155,13 +159,15 @@ hr.margin{
   margin-bottom: 0px;
 }
 .body-head-error-capslock{
-   background: #ffefe5;
-    height: 30px;
-    text-align: left;
-    line-height: 30px;
-    border: 2px solid gold;
-    border-radius: 6px;
-    }
+  background: #ffefe5;
+  height: 30px;
+  text-align: left;
+  line-height: 30px;
+  border: 1.5px solid gold;
+  border-radius: 6px;
+  font-size: 18px;
+  font-family: "Trebuchet MS";
+}
 .body-head-error-capslock::before {
   content: "\f071";
   position: relative;
@@ -169,9 +175,40 @@ hr.margin{
   font-family: "FontAwesome";
   padding-left: 10px;
   padding-top: 6px;
-  font-size: 22px;  
+  font-size: 18px;  
   margin-right: 10px;
 }
 .body-header-block-padding{
-    padding-top: 24px;
+  padding-top: 24px;
+}
+.body-head-error-page4{
+  background: #ffefe5;
+  height: 78px;
+  text-align: left;
+  line-height: 29px;
+  border: 1.5px solid #db5252;
+  border-radius: 6px;
+  font-size: 18px;
+  font-family: "Trebuchet MS";
+  margin-top: 15px;
+}
+.body-head-error-page4::before {
+  content: "\f06a";
+  position: relative;
+  color: #db5252;
+  font-family: "FontAwesome";
+  padding-left: 10px;
+  padding-top: 6px;
+  font-size: 18px;  
+  margin-right: 10px;
+}
+.body-head-error-page4-text{
+  height: 60px;
+  text-align: left;
+  line-height: 23px;
+  width: 243px;
+  border-radius: 6px;
+  font-size: 18px;
+  font-family: "Trebuchet MS";
+  margin-left: 34px;
 }
