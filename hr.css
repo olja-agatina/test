@@ -7,7 +7,7 @@ button {
   background-color:#38d0d0;
   color: white;
   padding: 14px 20px;
-  margin: 8px 0;
+  margin-top: -11px;
   border: none;
   cursor: pointer;
   width: 329px;
@@ -15,6 +15,9 @@ button {
   font-size: 20px;
   border-radius: 6px;
   height: 49px;
+}
+.button-page__8{
+    margin-top: 0px;
 }
 .head-img {
   float: left;
@@ -103,8 +106,12 @@ input[type=password] {
 }
 .body-block-link{
   margin-bottom: 30px;
+  margin-top: -10px;
   font-family: "Trebuchet MS";
   text-decoration: none;
+}
+.body-block-link-page__4{
+   margin-top: 0px;
 }
 .p-email{
   margin-top: 5px;
@@ -288,4 +295,21 @@ input[type="checkbox"]:checked + label:after {
   padding-top: 68px;
   font-size: 20px;
   color: white;
+}
+.p-email-page__7{
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.p-email-page__7::before{
+  content: "\f007";
+  position: absolute;
+  font-family: "FontAwesome";
+  padding-left: 8px;
+  padding-top: 68px;
+  font-size: 25px;
+  color: grey;
+}
+.body-block-page__8{
+  text-align: left;
+  margin-top: -25px;
 }
