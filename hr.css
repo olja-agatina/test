@@ -313,3 +313,45 @@ input[type="checkbox"]:checked + label:after {
   text-align: left;
   margin-top: -25px;
 }
+ ul {
+     list-style-position: inside;
+    width: 270px;
+    padding-left: 0px;
+     text-align: left;
+     margin-top: 4px;
+   }
+.p-checkbox-page__9{
+  float: left;
+  color: black;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-family: "Trebuchet MS";
+  font-size: 18px;
+}
+.body_header_checkbox{
+    color: black;
+}
+.button_page_9{
+    border: 1.5px solid #acacac;
+    border-radius: 6px;
+    height: 49px;
+    padding: 5px 20px;
+    background-color: #ededed;
+    color: #acacac;
+}
+.p-email__page_9::after{
+        margin-top: -37px;
+
+}
+#p-input-margin{
+    margin-bottom: 0px;
+}
+.ul-fa-circle{
+        margin-right: 50px;
+}
+.fa-circle:before {
+    color: #2db9e6;
+    margin-right: 7px;
+    font-size: 12px;
+}
